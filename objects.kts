@@ -1,17 +1,10 @@
 package ru.megaland
 
-firstExample()
-secondExample()
-thirdExample()
+objectInsideExample()
+companionExample()
+objectOutsideExample()
 
-// object Name — это объявление объекта (оbject declaration), реализация паттерна Singleton;
-object SingletonObject {
-    const val X = 100 // значение константно и известно на этапе компилляции
-    var y = 0
-    val Z = -1 // значение константно, НО может вычисляться во время выполнения
-}
-
-private fun firstExample(){
+private fun objectInsideExample(){
     println("---------------- firstExample() ----------------")
     // object — это объект-выражение (анонимный объект/object expression), не Singleton.
     val object1 = object {
@@ -34,25 +27,54 @@ private fun firstExample(){
     println(object1 === object2)
 }
 
-private fun secondExample(){
-    println("---------------- secondExample() ----------------")
-    val newObject = getCoordinates(x = 21, y = 78)
-    println("${newObject.x}, ${newObject.y}")
- 
-    val newObject2 = getCoordinates(x = 23, y = 99)
-    println("${newObject2.x}, ${newObject2.y}")
+// ----------------------------------------------------------------------------
+
+class SingletonClass private constructor() {
+    // Приватный конструктор, чтобы нельзя было создать экземпляр класса извне!
+
+    companion object {
+        // Это объект-компаньон, который будет служить единственным экземпляром класса
+        private var instance: SingletonClass? = null
+
+        fun getInstance(): SingletonClass {
+            // Если экземпляр еще не создан, создаем его
+            if (instance == null) {
+                instance = SingletonClass()
+            }
+            // Возвращаем единственный экземпляр класса
+            return instance!!
+        }
+    }
+
+    fun doSomething() {
+        println("doSomething()")
+    }
 }
 
-private fun thirdExample(){
+private fun companionExample(){
+    println("---------------- companionExample() ----------------")
+    // Попытка создать экземпляр класса (невозможно из-за приватного конструктора)
+    // val obj = SingletonClass() // Ошибка компиляции
+
+    // Получаем единственный экземпляр класса через объект-компаньон
+    val singletonInstance = SingletonClass.getInstance()
+
+    // Вызываем метод класса
+    singletonInstance.doSomething()
+}
+
+// ----------------------------------------------------------------------------
+
+// object Name — это объявление объекта (оbject declaration), реализация паттерна Singleton;
+object SingletonObject {
+    const val X = 100 // значение константно и известно на этапе компилляции
+    var y = 0
+    val z = -1 // значение константно, НО может вычисляться во время выполнения
+}
+
+private fun objectOutsideExample(){
     println("---------------- thirdExample() ----------------")
     SingletonObject.y = 2
-    println("x=${SingletonObject.X} y=${SingletonObject.y}")
+    println("x=${SingletonObject.X} y=${SingletonObject.y} z=${SingletonObject.z}")
 }
-
-private fun getCoordinates(x: Int, y: Int) = object {
-    val x: Int = x * 2
-    val y: Int = y * 2
-}
-
-
 
