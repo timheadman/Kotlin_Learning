@@ -1,5 +1,3 @@
-package ru.megaland
-
 objectInsideExample()
 companionExample()
 objectOutsideExample()

@@ -1,5 +1,3 @@
-package ru.megaland.scripts
-
 val languageName: String? = null
 
 

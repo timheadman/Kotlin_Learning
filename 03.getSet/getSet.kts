@@ -1,5 +1,3 @@
-package getSet
-
 class Clazz {
     var field1 = 0
         get() = field + 10

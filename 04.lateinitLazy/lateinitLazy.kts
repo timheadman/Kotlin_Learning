@@ -1,5 +1,3 @@
-package lateinitLazy
-
 val clazz = Clazz()
 clazz.Method()
 
