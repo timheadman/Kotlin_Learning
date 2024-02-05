@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c98156af-b036-4c66-b34b-71015e3df988" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06.constructor/constructor.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delegate/delegate.kts" beforeDir="false" afterPath="$PROJECT_DIR$/05.delegate/delegate.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getSet/getSet.kts" beforeDir="false" afterPath="$PROJECT_DIR$/03.getSet/getSet.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lateinitLazy/lateinitLazy.kts" beforeDir="false" afterPath="$PROJECT_DIR$/04.lateinitLazy/lateinitLazy.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nullSafety/nullsafety.kts" beforeDir="false" afterPath="$PROJECT_DIR$/02.nullSafety/nullsafety.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/objects.kts" beforeDir="false" afterPath="$PROJECT_DIR$/01.objects/objects.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.getSet/getSet.kts" beforeDir="false" afterPath="$PROJECT_DIR$/03.getSet/getSet.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.delegate/delegate.kts" beforeDir="false" afterPath="$PROJECT_DIR$/05.delegate/delegate.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin script (Beta).constructor.kts.executor": "Run",
     "Kotlin script (Beta).delegate.kts.executor": "Run",
+    "Kotlin script (Beta).getSet.kts.executor": "Run",
     "Kotlin script (Beta).lateinitLazy.kts.executor": "Run",
     "Kotlin script (Beta).objects.kts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,7 +66,7 @@
       <updated>1706857181316</updated>
       <workItem from="1706857183398" duration="2054000" />
       <workItem from="1707113404192" duration="509000" />
-      <workItem from="1707113929038" duration="314000" />
+      <workItem from="1707113929038" duration="8838000" />
     </task>
     <servers />
   </component>

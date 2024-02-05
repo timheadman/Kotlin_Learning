@@ -8,18 +8,18 @@ class BasicPrinter : Printer {
     }
 }
 
-class MiddlePrinter(basicPrinter: BasicPrinter) : Printer {
+class MiddlePrinter() : Printer {
     override fun print() {
         println("MiddlePrinter - print()")
     }
 }
 
 class BigPrinter(basicPrinter: BasicPrinter) : Printer by basicPrinter{
-    // print() делигорован полученному в конструкторе объекту basicPrinter
+    // print() переопределение делигоровано полученному в конструкторе объекту basicPrinter
 }
 
 val basicPrinter = BasicPrinter()
-val middlePrinter = MiddlePrinter(basicPrinter)
+val middlePrinter = MiddlePrinter()
 val bigPrinter = BigPrinter(basicPrinter)
 
 basicPrinter.print()
