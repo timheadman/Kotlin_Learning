@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c98156af-b036-4c66-b34b-71015e3df988" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/06.constructor/constructor.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.getSet/getSet.kts" beforeDir="false" afterPath="$PROJECT_DIR$/03.getSet/getSet.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05.delegate/delegate.kts" beforeDir="false" afterPath="$PROJECT_DIR$/05.delegate/delegate.kts" afterDir="false" />
-    </list>
+    <list default="true" id="c98156af-b036-4c66-b34b-71015e3df988" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +61,7 @@
       <updated>1706857181316</updated>
       <workItem from="1706857183398" duration="2054000" />
       <workItem from="1707113404192" duration="509000" />
-      <workItem from="1707113929038" duration="8838000" />
+      <workItem from="1707113929038" duration="9521000" />
     </task>
     <servers />
   </component>
