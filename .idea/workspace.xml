@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c98156af-b036-4c66-b34b-71015e3df988" name="Changes" comment="" />
+    <list default="true" id="c98156af-b036-4c66-b34b-71015e3df988" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/01.objects/companion.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin script (Beta).companion.kts.executor": "Run",
     "Kotlin script (Beta).constructor.kts.executor": "Run",
     "Kotlin script (Beta).delegate.kts.executor": "Run",
     "Kotlin script (Beta).getSet.kts.executor": "Run",
@@ -35,6 +39,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tim/Projects/Kotlin_Learning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +52,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-11.0.22-semeru-11.0.22-4caba194b151-4d2d231f" />
         <option value="jdk-11.0.22-semeru-11.0.22-f644763e9732-d90ddd3d" />
       </set>
     </attachedChunks>
@@ -62,6 +68,10 @@
       <workItem from="1706857183398" duration="2054000" />
       <workItem from="1707113404192" duration="509000" />
       <workItem from="1707113929038" duration="9521000" />
+      <workItem from="1707217937515" duration="18000" />
+      <workItem from="1707217963056" duration="304000" />
+      <workItem from="1707711994420" duration="57000" />
+      <workItem from="1707712058870" duration="984000" />
     </task>
     <servers />
   </component>
