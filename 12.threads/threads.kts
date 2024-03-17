@@ -1,23 +1,35 @@
 import kotlin.concurrent.thread
 
-val thread1 = Thread {
-    val threadName = Thread.currentThread().name
-    println("Hello from: $threadName!")
-}
-thread1.start()
-
 // ------------------------------------------
-val thread2 = thread {
-    Thread.sleep(1000)
-    println("end: ${Thread.currentThread().name}!")
+
+val thread0 = thread {
+    println("start: ${Thread.currentThread().name}")
+    Thread.sleep(500)
+    println("end: ${Thread.currentThread().name}")
 }
 
-val thread3 = thread {
-    Thread.sleep(2000)
-    println("end: ${Thread.currentThread().name}!")
+fun thread1(callback: (String) -> Unit) {
+    thread {
+        println("start: ${Thread.currentThread().name}")
+        Thread.sleep(1000)
+        callback("end: ${Thread.currentThread().name}")
+    }
 }
 
-thread2.join()
-thread3.join()
-println("end")
-// ------------------------------------------
+fun thread2(callback: (String) -> Unit) {
+    thread {
+        println("start: ${Thread.currentThread().name}")
+        Thread.sleep(1500)
+        callback("end: ${Thread.currentThread().name}")
+    }
+}
+
+thread1 { // Callback Hell
+    println(it)
+    thread2 {
+        println(it)
+    }
+}
+
+println("end: Script")
+
