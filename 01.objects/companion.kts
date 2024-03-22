@@ -1,11 +1,11 @@
-class ClassCompanion(val a: Int){
+class ClassWithCompanion(){
     companion object CompanionObject {
-        val b = 10
+        val a = 10
+        fun compFunc(b: Int) : Int = b + 1
     }
 }
 
-val obj1 = ClassCompanion(1)
-val obj2 = ClassCompanion(2)
+println(ClassWithCompanion.a)
+println(ClassWithCompanion.compFunc(10))
 
-println(obj1)
-println(ClassCompanion.CompanionObject.b)
+

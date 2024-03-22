@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e21eb01-b151-4682-a6ac-628127b33c00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/11.functionalType/functionalType.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.lambda/lambda.kts" beforeDir="false" afterPath="$PROJECT_DIR$/10.lambda/lambda.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.objects/anonymous_object.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.objects/other.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.scopefunctions/scopefunctions.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yandex/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yandex/stones_juwels.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yandex/yandex_sum.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yandex/yandex_sum_ашду.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.objects/companion.kts" beforeDir="false" afterPath="$PROJECT_DIR$/01.objects/companion.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.objects/objects.kts" beforeDir="false" afterPath="$PROJECT_DIR$/01.objects/objects.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.nullSafety/nullsafety.kts" beforeDir="false" afterPath="$PROJECT_DIR$/02.nullSafety/nullsafety.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +45,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin script (Beta).anonymous_object.kts.executor": "Run",
+    "Kotlin script (Beta).companion.kts.executor": "Run",
     "Kotlin script (Beta).functionalType.kts.executor": "Run",
     "Kotlin script (Beta).lambda.kts.executor": "Run",
+    "Kotlin script (Beta).objects.kts.executor": "Run",
+    "Kotlin script (Beta).scopefunctions.kts.executor": "Run",
+    "Kotlin script (Beta).stones_juwels.kts.executor": "Run",
+    "Kotlin script (Beta).test.kts.executor": "Run",
+    "Kotlin script (Beta).yandex_sum.kts.executor": "Run",
+    "Kotlin script (Beta).yandex_sum_ашду.kts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tim/Projects/Learning/kotlin/Yandex",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tim\Projects\Learning\kotlin\Yandex" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +92,12 @@
       <option name="presentableId" value="Default" />
       <updated>1708320648331</updated>
       <workItem from="1708320650078" duration="97000" />
-      <workItem from="1708320822116" duration="5387000" />
+      <workItem from="1708320822116" duration="6904000" />
+      <workItem from="1709537271327" duration="7000" />
+      <workItem from="1711083395384" duration="695000" />
+      <workItem from="1711084466350" duration="4542000" />
+      <workItem from="1711090755102" duration="2453000" />
+      <workItem from="1711094114956" duration="678000" />
     </task>
     <servers />
   </component>

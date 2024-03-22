@@ -1,0 +1,1 @@
+    print(readLine()?.split(" ")?.map { it.toInt() }?.sum())
