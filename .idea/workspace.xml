@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e21eb01-b151-4682-a6ac-628127b33c00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01.objects/anonymous_object.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.objects/other.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.scopefunctions/scopefunctions.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yandex/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yandex/stones_juwels.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yandex/yandex_sum.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yandex/yandex_sum_ашду.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.objects/companion.kts" beforeDir="false" afterPath="$PROJECT_DIR$/01.objects/companion.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.objects/objects.kts" beforeDir="false" afterPath="$PROJECT_DIR$/01.objects/objects.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.nullSafety/nullsafety.kts" beforeDir="false" afterPath="$PROJECT_DIR$/02.nullSafety/nullsafety.kts" afterDir="false" />
-    </list>
+    <list default="true" id="7e21eb01-b151-4682-a6ac-628127b33c00" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,33 +30,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin script (Beta).anonymous_object.kts.executor": "Run",
-    "Kotlin script (Beta).companion.kts.executor": "Run",
-    "Kotlin script (Beta).functionalType.kts.executor": "Run",
-    "Kotlin script (Beta).lambda.kts.executor": "Run",
-    "Kotlin script (Beta).objects.kts.executor": "Run",
-    "Kotlin script (Beta).scopefunctions.kts.executor": "Run",
-    "Kotlin script (Beta).stones_juwels.kts.executor": "Run",
-    "Kotlin script (Beta).test.kts.executor": "Run",
-    "Kotlin script (Beta).yandex_sum.kts.executor": "Run",
-    "Kotlin script (Beta).yandex_sum_ашду.kts.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tim/Projects/Learning/kotlin/Yandex",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin script (Beta).anonymous_object.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).companion.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).functionalType.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).lambda.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).objects.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).scopefunctions.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).stones_juwels.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).test.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).yandex_sum.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin script (Beta).yandex_sum_ашду.kts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tim/Projects/Learning/kotlin/Yandex&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tim\Projects\Learning\kotlin\Yandex" />
@@ -98,6 +85,7 @@
       <workItem from="1711084466350" duration="4542000" />
       <workItem from="1711090755102" duration="2453000" />
       <workItem from="1711094114956" duration="678000" />
+      <workItem from="1711094810249" duration="359000" />
     </task>
     <servers />
   </component>
